@@ -4,9 +4,31 @@
 
 ## **遗留**
 
-- 云谦老师B站的UMI教程（1-9）
-- 读一读hooks相关的文章（1-9）
+- 复盘hooks相关（1-9）
 - 新线程：graphql初体验（1-9）
+
+### 2020-1-11
+
+### 今
+
+- [webpack](https://github.com/linbudu599/Webpack4.x-Template)遗留很久的一个问题突然解决了，感谢umi，使用dev-server-middleware起服务的时候配置项直接引入 `webpack.conf.dev.js` 即可，其中的配置项已经被合并过一次了，不用再在server里合并一次。
+- [Log Server](https://github.com/linbudu599/Log_Server)上线了，也接入了天气应用，测试的时候看到成功记录下日志简直不要太开心！但是PM2启动问题还是没法解决，不清楚是配置项有问题还是依赖没装好...
+- ts-axios，因为有电子书就跟着电子书敲了，效率高的很，但是担心会不会效果不太好...，想着到时候再全面重构优化一下。君ts当上手
+
+- ssr-github，今天没怎么跟进课程，稍微写了一部分搜索页面，阿西吧又是排序又是限制条件的，但是GitHub竟然api细致到了这种程度...，给劲！
+- 一个月前看 `Umi` 文档还一头雾水，但今天就感觉这文档写的真是浅显易懂啊...，我觉得大概可以把 `Umi` 理解成 webpack上层封装 + Next.js式路由 + 强化过的html-webpack-plugin + 一堆灵活的插件。准备这样，写几个demo，fork下社区/官方配置的模板，写个插件，和 `dva`、`antd pro` 搭配，估计四到五天，然后再开始写家园的项目。
+- hooks真的好用啊...，今天稍微学习了下优化hooks，不愧是 **hooks哲学**
+
+### 明
+
+> 开始按照重要顺序排序
+
+- （整活）开始写generate天气应用模板的cli了，但是不着急封装成npm，重点是命令行交互一定要骚​
+- ts-axios
+- ssr-github
+- umi-pratice
+
+- 应该这些够了...
 
 ## 2020-1-10
 
