@@ -6,6 +6,23 @@
 
 - 复盘hooks相关 :construction:
 - 新线程：graphql初体验 :sparkles:
+- Umi & Dva :whale:
+
+## 2020-1-13
+
+### 今
+
+- 今天开开心心的用自己写的API来Mock的时候MongoDB突然崩了...，慌的一批，因为这个东西之前跑了一个多月都没出过问题，难道是哪里边界情况没考虑到？用配置文件重启了Mongod之后就好了。
+- 今天主要跟着网课学习，ssr-github的bug修好了，ts-axios也完成了基本功能，到时候还是得去研究下axios源码看看人家node端的实现方式。说到这个，明天研究下node的buffer和流吧，感觉挺重要的。
+- 跟着知乎一篇文章写了个[useAxios](https://github.com/linbudu599/Effective-Customize-Hooks/blob/master/hooks/useAxios)，真是鬼才，用 `context` 来实现全局配置，但是这部分今天有点看不懂...
+- 整理了闭包到[linbudu599/Penumbra](https://github.com/linbudu599/Penumbra)，不清楚自己是不是真的掌握了？咋会觉得它很简单呢。还有闭包和模块、React组件、Hooks的联系，JS博大精深。
+- 开始学webpack5了，做好了全英文开始的准备。
+
+### 明
+
+- webpack5优先，先搞一部分新的东西再整理下新特性
+- 继续ssr-github和ts-axios，还剩下好几门网课，移动app、测试、两门小程序（前&后端）
+- 再议，根据可用时间灵活安排（真实还没过年就事情一堆）
 
 ## 2020-1-12
 
