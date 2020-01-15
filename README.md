@@ -4,9 +4,25 @@
 
 ## **遗留&进行中**
 
-- 复盘hooks相关 :construction:
-- 新线程：graphql初体验 :sparkles:
-- Umi & Dva :whale:
+- hooks :construction:
+- graphql :sparkles:
+- Umi & Dva ​&​ ​A​n​td​ ​P​ro​ ​&​ ​家园项目:whale:
+- useAxios :fire:
+
+## 2020-1-15
+
+### 今
+
+- ts-axios 基础工作已经完成，准备开始后续的拦截器、cancelToken部分，我说axios源码怎么有15k呢...，这考虑的是真的多。学习到了typescript继承内置对象Error时需要手动 `Object.setPrototypeOf(this, AxiosError.prototype)` 一下。然后就是觉得这个思路如果让我自己来写起码要有一年工作经验才能写得出来，各处泛型、将类实例和函数结合到一起的思路等等。
+- ssr-github已经接近尾声，剩余issues界面的开发，感觉很喜欢这个老师的授课方式，和你一起把坑踩一遍，然后告诉你为啥这是个坑，或者推翻重来告诉你如何提高程序性能（缓存、复用等）。应该会继续完善下去，毕竟GitHub API那么完善。如果next支持ts的话也准备用ts重构一下，感觉这个项目还是挺有必要的，各种各样的数据类型、函数重载等。
+- 准备开始搞puppeteer的时候，被安排的明明白白，因为担心只下core可能以后搞大的不够，所以下的完整版，但是一下下了半个小时，所以我就只能孤零零的整个README放上学习资源。
+
+### 明
+
+- puppeteer的基础使用，完成部分功能如爬虫、合并PDF，考虑基于puppeteer写个爬虫工具，React+TS+Koa+MongoDB？再议
+- ssr-github，完成、样式调整、撰写文档、测试（暂无）、部署上线，github.linbudu.top
+- ts-axios，继续推进
+- 准备开始移动端的学习了
 
 ## 2020-1-14
 
