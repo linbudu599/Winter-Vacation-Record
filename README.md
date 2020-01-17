@@ -2,13 +2,32 @@
 
 >我现在觉得，没有什么比坚持记录自己的成长一段时间后再回头感受更有成就感的事情了。
 
-## **遗留&进行中**
+## **进行中**
 
-- hooks :construction:
-- graphql :sparkles:
-- Umi & Dva ​&​ ​A​n​td​ ​P​ro​ ​&​ ​家园项目:whale:
 - useAxios :fire:
 - 逃避闭包&useRef，why and why not。:ambulance:
+
+## 2020-1-17
+
+### 今
+
+- ssr-github完成，但是出现了一个教程里没有的bug，估计是GitHub Api变更了，就像GitHub OAuth登陆拿token的时候也和视频里的不一样，从对象变成了字符串（字典？）形式，暂时没有处理。
+
+- puppteer真的好好玩啊，感觉可以用来抢票、爬虫、各种模拟机器人等等，下午花了一个下午的时间研究了几个比较有意思的功能，最后也卡在了一个bug上：
+
+  - `evaluate` 方法内无法调用全局函数（模块），即是用 `exposeFucntion` 挂载到windows上也是一样...，issues里有条遇到了和我一样的问题就是用 `exposeFucntion` 解决的，我这是被安排了？ 
+
+- ts-axios的配置合并部分，需要的时间超出预期，因此今天没有完成。
+- useAxios重新看和实现了一遍，仍旧没有解决，忐忑不安的把代码都贴给那位前辈了
+- 接触了下feflow，觉得挺简单易上手的，脚手架和构建器知识估计后面写wss-generator的时候也可以用上。
+- 还是感觉进度偏慢了，觉得自己定位bug并迅速解决的能力还有待提升，经常卡在莫名其妙的bug上。
+
+### 明
+
+- ssr-github，定位问题并解决
+- ts-axios，配置合并、axios.create() 方法扩展
+- useAxios，看看作者会不会回复issue
+- 小程序
 
 ## 2020-1-16
 
