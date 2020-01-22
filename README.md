@@ -7,6 +7,21 @@
 - useAxios :fire:
 - 逃避闭包&useRef，why and why not。:ambulance:
 
+## 2020-1-22
+
+### 今
+
+- 啊...，又要开新坑了，准备用graphql+dva+ts+apollo等等写一个todolist，预计会有一次很大的突破，以controller和decorator等语法来写，顺便为nest.js打基础
+- 感觉写脚手架要提上日程了，每次都是把之前配好的复制下也太没牌面了，但是现在进度比较赶，再推一推吧...，等到有空了一定要整一个具有牌面的
+- ts-axios，重新配一下server，估计要开始写单测了...，cover6、70先将就一下吧
+- 小程序，按照每天15~20小节的进度来。今天发现要在小程序里痛痛快快地写原本的代码还真没那么方便，想用async/await还需要专门去拷贝regenerator包里packages/runtime.js这个文件，对版本还有要求，得是0.7左右的，惊了
+
+### 明
+
+- 搭好整个todolist项目结构
+- ts-axios/小程序/react-hooks-axios
+- 淦，进度真的得加快了，寒假还有读源码这个环节
+
 ## 2020-1-21
 
 ### 今
