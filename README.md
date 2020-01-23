@@ -2,10 +2,28 @@
 
 > 我现在觉得，没有什么比坚持记录自己的成长一段时间后再回头感受更有成就感的事情了。
 
-## **进行中**
+## Focusing On...?
 
-- useAxios :fire:
-- 逃避闭包&useRef，why and why not。:ambulance:
+- useAxios（`<GlobalConfig>`、`cancelToken`） :fire:
+- 逃避闭包&useRef，why and why not:ambulance:
+- 小程序-前端部分👨🏽‍🔧
+- GraphQL实践及应用🐣 
+- ts-axios单测（jest）
+
+## 2020-1-23
+
+### 今
+
+- ts-axios功能至此已经完成（课程部分），后续会再根据官方axios的功能进行扩展，考虑包含Node部分的封装。开始写单测，感觉还挺有意思？？就是边界情况要考虑的真的多诶。而且Jest文档功能一堆，有时间会精读一下选一些可能用得上的功能。
+- 练手GraphQL的时候遇到了不少问题，比如MongoDB和TS协作、Koa开启GraphiQL（这个其实百度一下就有，只是我一开始先入为主的去npm上找了），以及GraphQL的Mutation问题。
+- 小程序！进展一般，今天没有特别惊艳的收获或者特别烦人的坑。剩余80节课程。
+
+### 明
+
+- MongoDB与TS协作问题！
+- 写完大部分单测，或者至少写到50%覆盖率左右
+- graphql连接数据库的CRUD
+- 小程序预计20节？写一个完整的有交互能力的页面先
 
 ## 2020-1-22
 
