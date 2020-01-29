@@ -10,6 +10,13 @@
 - GraphQL实践及应用🐣 
 - ts-axios单测（jest）
 
+## 2020-1-29
+
+- 美团app 页面（jsx）部分重构完成，接下来安排：先搭建一个简易服务端读JSON文件，优化数据流，看是否能直接上dva，然后再重构服务端，预计还是用MongoDB。再用tsx重构页面，然后进行工程化方面的优化（是的，我觉得配webpack是末尾奖励...）
+- GraphQL今天进展还行，明天准备上Apollo-Client，这玩意感觉也是个大生态啊...，Apollo-react/vue，Apollo-server-express/koa/hapi...，Apollo-Link，...，喵喵喵？然后这个搞完了还有TypeGraphQL和PostGraphQL，或许这就是前端吧...
+- 复习了下Node，感觉得更重视一些Node了...，再过几年估计页面就是拖拽可视化了...
+- 小程序，准备接下来的异步不用async/await了，感觉自己有点舍本逐末了，很多情况下Promise性能更好吧，毕竟js最怕的就是阻塞。
+
 ## 2020-1-28
 
 ### 今
