@@ -18,13 +18,13 @@
   - graphql，已经掌握基础，正在配合Apollo继续研究
   - 脚手架及配套构建器，脚手架大致完成了，考虑怎么根据不同的情况写构建器模板
   - 美团APP，正在重构数据流
-  - 小程序前端部分，预计两天内完成
+  - 小程序-后端
+  - 基于Egg.js的博客CMS系统
 - 开始学习了的技术栈
   - ts node react(hooks) puppeteer webpack 
+  - apollo-react + ts （能否替代 redux及中间件？）
 - 计划中的剩余项目
-  - 小程序-后端
   - Taro 小程序+后台管理系统
-  - 基于Egg.js的博客CMS系统
   - 基于webpack插件的前端监控系统
   - vuepress-theme-penumbra，可以顺便复习vue，待定
   - 一个VS Code插件，待定
@@ -33,8 +33,15 @@
 - 计划中的剩余技术栈
   - umi dva antd-pro
   - immutable.js rx.js 
-  - apollo-react + ts （能否替代 redux及中间件？）
   - docker k8s 待定
+
+## 2020-2-05
+
+- 昨天其实也做了不少事情。但后面被拉去开黑一时兴奋忘掉了做总结...，昨天写完了小程序，写了Apollo服务端和客户端的文章，（码字真的前面很兴奋后面慢慢麻木了）
+- 今天翻书签看到`Docs`里有个`Parcel`还没用过，就去尝试了一下，做了个简单的SPA模板丢到了GitHub上，感觉这玩意比webpack简单、快速太多了，但是灵活性就一般，毕竟少了那么多配置项。当然也可以猜测它是在内部自动做好了一些事情，比如ignore掉一些目录、针对性寻找扩展名等等。自带的HMR 服务器也不错奥。
+- 开始学那门Jest的课了，之前的问题一直没解决。只看到了mock axios回应之类的解决方案，但由于ts-axios是个请求库，单测要事无巨细的跟踪请求，项目里的用的是有点老的jasime-ajax，我再找找吧。
+- 开始写小程序后端，感觉到时候写脚手架花样真的太多了，前端 react/vue/svetle，服务端Koa/Egg，打包器 Webpack/Parcel，数据库 MongoDB / MySQL，还有REST/GraphQL，Apollo...，鬼鬼，有丶意思。
+- 明天要继续跟进jest、小程序后端，同时做一些零碎的小的项目，感觉这种两三个大进程配几个小进程还挺好玩的。
 
 ## 2020-2-03
 
