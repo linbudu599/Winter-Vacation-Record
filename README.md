@@ -6,9 +6,6 @@
 
 - useAxios（`<GlobalConfig>`、`cancelToken`） :fire:
 - 逃避闭包&useRef，why and why not:ambulance:
-- 小程序-前端部分👨🏽‍🔧
-- GraphQL实践及应用🐣 
-- ts-axios单测（jest）
 
 ## 计划剩余部分
 
@@ -17,9 +14,7 @@
   - ts-axios，已完成主体部分，单测部分正在进行
   - graphql，已经掌握基础，正在配合Apollo继续研究
   - 脚手架及配套构建器，脚手架大致完成了，考虑怎么根据不同的情况写构建器模板
-  - 美团APP，正在重构数据流
   - 小程序-后端
-  - 基于Egg.js的博客CMS系统
 - 开始学习了的技术栈
   - ts node react(hooks) webpack 
   - apollo-react + ts （能否替代 redux及中间件？）
@@ -28,13 +23,19 @@
   - 基于webpack插件的前端监控系统
   - vuepress-theme-penumbra，可以顺便复习vue，待定
   - 一个VS Code插件，待定
-  - 一个 RN/Flutter App
+  - 一个Flutter App
   - 抽离之前的电商后台管理系统为一个模板
 - 计划中的剩余技术栈
   - umi dva antd-pro
-  - immutable.js rx.js  
-  - Nest.js TypeDI TypeOrm
+  - rx.js  
+  - TypeDI TypeOrm
   - docker k8s 待定
+
+## 2020-2-15
+
+- 看了一下这个仓库也40个commit了，惊觉寒假其实已经过去了...，如果是按照正常的寒假开学，那我绝对极度没信心吧，因为cms、小程序前后端都是真·寒假结束后才开始的。如果不和人比那我绝对还对自己有信心，但随手看到的面经都是这么厉害的...。已经开始准备面试，大致包括算法/数据结构/网络/html/css及布局/js基础/ts/工程化/Vue基本使用/React底层这些方面，怎么算都要一个月吧...，准备好一边练科二科三一边复习了。
+- 完成了cms的大致功能，后面就是继续优化细节和新增功能咯。
+- 开始新坑，React+Immutablejs实现一个音乐app~，明天要不把美团app重构了吧。
 
 ## 2020-2-14
 
