@@ -9,27 +9,46 @@
 
 ## 计划剩余部分
 
-- 正在进行的项目
-  - ssr-github，已完成，未上线部署，考虑tsx重构和写单测&e2e
-  - ts-axios，已完成主体部分，单测部分正在进行
-  - graphql，已经掌握基础，正在配合Apollo继续研究
-  - 脚手架及配套构建器，脚手架大致完成了，考虑怎么根据不同的情况写构建器模板
-  - 小程序-后端
-- 开始学习了的技术栈
-  - ts node react(hooks) webpack 
-  - apollo-react + ts （能否替代 redux及中间件？）
-- 计划中的剩余项目
-  - Taro 小程序+后台管理系统
-  - 基于webpack插件的前端监控系统
+- 当前进行的
+
+  - 小程序服务端
+  - Mutable-App
+  - Blog-CMS
+  - Docker使用
+  - 复习JavaScript基础与学习设计模式
+
+- 计划
+
+  - MySQL与MongoDB深入点
+  - Ts！
+
+- 等待优化/单测/e2e/重构/部署的
+
+  - 美团app，重构数据流，优化配置，测试，tsx等
+  - ssr-github，优化细节表现
+  - ts-axios，等找一个能替代jasmine-ajax的库
+  - Apollo，client（react）和server，各种相关工具链以及它们应当如何被测试？尤其是useQuery和useMutation。
+
+- 未开始/刚有想法/犹豫的
+
+  - 脚手架、生成器、构建器，把准备抽的模板也放在这里吧
+
+  - 仿Sentry的前端错误监控系统
+  - Flutter
+  - Taro？
   - vuepress-theme-penumbra，可以顺便复习vue，待定
   - 一个VS Code插件，待定
-  - 一个Flutter App
-  - 抽离之前的电商后台管理系统为一个模板
+
 - 计划中的剩余技术栈
-  - umi dva antd-pro
+  - umi dva antd-pro，不确定是不是要试着写一个umi插件，之前想过的那个
   - rx.js  
   - TypeDI TypeOrm
-  - docker k8s 待定
+
+## 2020-2-16
+
+- 今天主要复习了一下this和作用域，我发现人的大脑好像真的是越学越好用的，搁几个月前让我看怎么看也看不懂估计只能死记硬背，但是现在读起来就顺顺当当地。明天复习下闭包和原型，先把这几座大山给放下来吧。
+- immutable这个课买的也太值了，全是我感觉很宝贵的新思路，比如二次封装better-scroll地思路，还有forwardRef这玩意之前我咋就是没搞懂，现在一瞅觉得就是挺简单一小玩意儿。
+- 小程序地后端真的写的累人，不知道是不是我用了ts的关系经常报奇怪的错，感觉每跑通一个接口都开心的不行。对了之前对验证器的想法真的太蠢了，万一有人用脚本或者postman这种工具呢？对吧对吧
 
 ## 2020-2-15
 
