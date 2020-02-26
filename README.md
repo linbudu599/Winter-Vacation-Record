@@ -2,43 +2,12 @@
 
 > 我现在觉得，没有什么比坚持记录自己的成长一段时间后再回头感受更有成就感的事情了。
 
-## Focusing On...?
+## 2020-2-26
 
-- useAxios（`<GlobalConfig>`、`cancelToken`） :fire:
-- 逃避闭包&useRef，why and why not:ambulance:
-
-## 计划剩余部分
-
-- 当前进行的
-
-  - 小程序服务端
-  - Mutable-App
-  - Docker使用
-  - 复习JavaScript基础/设计模式
-  
-- 计划
-
-  - MySQL与MongoDB深入点
-  - Ts！
-
-- 等待优化/单测/e2e/重构/部署的
-
-  - ssr-github，优化细节表现
-  - ts-axios，等找一个能替代jasmine-ajax的库
-  - Apollo，client（react）和server，各种相关工具链以及它们应当如何被测试？尤其是useQuery和useMutation。
-  
-- 未开始/刚有想法/犹豫的
-
-  - 脚手架、生成器、构建器，把准备抽的模板也放在这里吧
-
-  - 仿Sentry的前端错误监控系统
-  - Flutter
-  - vuepress-theme-penumbra，可以顺便复习vue，待定
-  - 一个VS Code插件，待定
-  
-- 计划中的剩余技术栈
-  - umi dva antd-pro，不确定是不是要试着写一个umi插件，之前想过的那个
-  - TypeDI TypeOrm
+- 又有一位同学进了腾讯，羡慕之余也重新回顾和考虑了一下自己的面试准备，砍掉了Vue和Nest.js等几个技术栈，把时间更多的花在弄个精品项目上。
+- 突然想到Gatsby能用antd嘛！！！别让布局样式折磨死了到时候。不过Gatsby文档是真的看的头疼，感觉需要的东西是分散开的。
+- 继续试了一下docker，果不其然还是有问题，今天遇到的是数据卷明明挂载进容器了，但是就是显示没有数据库信息！！人傻了，下次把这种问题放在白天脑力还没耗尽的时候好了。
+- 预计一个月后这时候我就开始陆陆续续接到面试电话了，要加油啊。
 
 ## 2020-2-25
 
